@@ -1,0 +1,559 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(226, 223, 218);
+    
+}
+#overview {
+    background-color: rgb(15, 15, 90); 
+    
+}
+
+
+
+.flex-container{
+list-style-type: none;
+margin: 0;
+margin-top: 20px;
+padding: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+nav{
+  
+    height: 100px;
+    width: 100%;
+   /* display:flex;
+    justify-content: space-evenly;
+    justify-items: center;*/
+    padding-top: 25px;
+    display: grid;
+
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+
+}
+
+.hover{
+    color: rgb(61, 61, 212);
+
+}
+.space{
+    word-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    color:rgb(15, 15, 90);
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.hover:hover{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(15, 15, 90);
+   /* border: 2px solid blue;*/
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    outline: 1.5px solid rgb(15, 15, 90);
+    outline-offset: 0.2rem;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+img{
+    border-radius: 10%;
+    margin: 4px;
+}
+
+.writeup-header{
+color: rgb(226, 223, 218);
+font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+padding-left: 15px;
+}
+
+.about{
+    color: rgb(15, 15, 90) !important;
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+    padding-left: 15px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px;
+
+
+}
+
+#name{
+    text-align: center;
+    color: rgb(226, 223, 218);
+    font-size: small;
+
+}
+em{
+    color: white;
+    font-size: xx-large;
+}
+
+.reg{
+    padding-right: 15px;
+}
+
+.writeup-container{
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+background-color: white;
+
+}
+
+span{
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+    font-size: xx-large;
+    color: white;
+}
+.sec-btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 180px;
+    margin-top: 50px;
+    
+}
+
+
+button{
+   background-color: rgb(15, 15, 90);
+    border: none;
+    outline: 1.5px solid white;
+    outline-offset: 0.2rem;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+    font-weight: 700;
+    
+}
+
+.btn-grades{
+margin-left: 15px;
+}
+.btn-portfolio{
+    margin-right: 20px;
+}
+
+.btn-form{
+margin-top: 15px;
+border-radius: 20px;
+color: rgb(226, 223, 218);
+outline: 1.5px solid rgb(15, 15, 90);
+outline-offset: 0.2rem;
+
+
+}
+
+.btn-portfolio, .btn-grades {
+    border-radius: 20px;
+    height: 50px;
+    margin-top: 100px;
+  
+}
+
+button:hover{
+    color:rgb(15, 15, 90);
+    background-color: white;
+    
+}
+
+
+.social{
+    padding-top: 4px;
+    padding-left: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin, .github, .youtube, .facebook, .gmail, .instagram, .twitter, .yahoo {
+/*color:rgba(167, 146, 129, 0.6);*/
+width: 30px;
+height: 30px;
+opacity: 0.3;
+line-height: 50px;
+padding: 1%;
+/*border: 1px solid rgba(167, 146, 129, 0.4);*/
+cursor: pointer;
+margin-left: 10px;
+margin-bottom: 20px;
+transition: ease .3s;
+}
+
+.linkedin:hover, .github:hover, .youtube:hover, .facebook:hover, .gmail:hover, .instagram:hover, .twitter:hover, .yahoo:hover{
+opacity: initial;
+/*background-color: blanchedalmond;*/
+width: 35px;
+height: 35px;
+}
+
+
+#content{
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 500px;
+    height: 100px;
+    padding:0px;
+}
+.skillset{
+    color: rgb(15, 15, 90) !important;
+    padding-top: 0px;
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+    margin-top: -10px;
+    margin-left: 100px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+#contact-container{
+    background-color:rgb(226, 223, 218);
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.about-section{
+    background-color: rgb(226, 223, 218);
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+.shift{
+    padding-left: 0px !important;
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+    font-weight: bolder;
+    color: rgb(15, 15, 90);
+}
+
+label{
+    color:rgb(15, 15, 90);
+    padding-left: 15px;
+}
+
+
+.fill-form{
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+
+}
+h3{
+    color: rgb(15, 15, 90);
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+}
+
+.inputs{
+    color: rgb(15, 15, 90);
+     font-family: 'Champagne & Limousines', 'Existence Light', Raleway;;
+}
+
+#myself{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+
+}
+
+.about-writeup{
+    margin-right: 400px;
+    padding-left: 20px;
+    /*padding-right: ;*/
+}
+
+input{
+    width:400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 5px solid rgb(15, 15, 90);
+    color: #404040;
+}
+textarea{
+    border-radius: 20px;
+    border: 5px solid rgb(15, 15, 90);
+    font-size: large;
+    width:400px;
+}
+
+progress {
+   accent-color: rgb(15, 15, 90);
+   width: 400px; 
+   height: 30px;
+}
+
+.progress{
+    width: 500px;
+}
+
+#samuel{
+    color:rgb(15, 15, 90);
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway;
+    font-weight: bold;
+    font-size: larger;
+}
+/*----------------------------------------------------------------*/
+.services{
+	width:100%;
+	height: 150vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+    background-color: rgb(15, 15, 90);
+}
+
+.font{
+    margin-top: 70px;
+    font-family: 'Champagne & Limousines', 'Existence Light', Raleway; 
+}
+.s-heading{
+	text-align:center;
+}
+.s-heading h1{
+	color:rgb(226, 223, 218);
+	font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+.s-heading p{
+	color: rgb(226, 223, 218);
+	font-size: 1rem;
+	margin: 5px;
+	text-align: center;
+}
+.s-box-container{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.s-box{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	width:300px;
+	padding: 20px 25px;
+	height: 400px;
+	box-sizing: border-box;
+	margin: 30px;
+	position: relative;
+}
+.s-box img{
+	height: 75px;
+}
+.s-box h1{
+	color:rgb(226, 223, 218);
+	letter-spacing: 1px;
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+	
+}
+.s-box p{
+	color: rgb(226, 223, 218);
+	text-align: center;
+}
+.s-btn{
+	width: 140px;
+	height: 40px;
+	border-radius: 20px;
+	border:1px solid rgb(226, 223, 218);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:rgb(226, 223, 218);
+	margin-top:10px; 
+}
+.bar{
+	width: 100px;
+	height: 6px;
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	transform: translateX(-50%);
+	background-color:rgb(226, 223, 218); 
+	border-radius: 0px 0px 10px 10px;
+	display: none;
+	animation: bar 0.5s;
+}
+.s-box:hover{
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+	transition: all ease 0.3s;
+}
+.s-btn:hover{
+	background-color:rgb(226, 223, 218);
+	border: 1px solid rgb(226, 223, 218);
+	color: rgb(72, 72, 155);
+	transition: all ease 0.3s;
+}
+
+.left{
+    padding-left: 39px;
+}
+
+i{
+    padding-left: 30px;
+}
+
+.btn-link{
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.l, .g, .gm, .ym, .y, .f, .i, .t{
+    display: inline;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-social-icons{
+    padding-left: 200px;
+    letter-spacing: 30px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: flex-start;
+   margin-right: 100px;
+   margin-bottom: 5px;
+    
+}
+
+ul.footer-links li{
+    color: rgb(226, 223, 218) !important;
+    text-decoration: none;
+    list-style: none;
+    padding: 30px;
+    margin: 20px;
+    width: 50px;
+    height: 2px;
+    border-radius: 20px;
+}
+
+.fhover:hover{
+    color:rgb(15, 15, 90);
+    background-color: rgb(226, 223, 218);
+    
+}
+
+
+footer{
+    display:grid;
+    place-items: center;
+}
+
+#footer-container{
+    background-color: rgb(15, 15, 90);
+}
+
+.text-center{
+    color: rgb(226, 223, 218);
+    padding-left: 385px;
+}
+
+.text{
+    color:rgb(226, 223, 218);
+}
+
+.s-box:hover .bar{
+	display: block;
+}
+
+.fhover{
+    color:rgb(226, 223, 218);
+    outline: 1px solid rgb(226, 223, 218);
+    outline-offset: 8px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.last{
+    color: rgb(226, 223, 218);
+    background-color: rgb(61, 61, 212);
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+h4{
+    outline: 1px solid rgb(226, 223, 218);
+    outline-offset: 8px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.last-link{
+    color: rgb(226, 223, 218);
+}
+
+.last-link:hover{
+    color: aqua;
+}
+
+
+@keyframes bar{
+	0%{
+		width:0px;
+	}
+	100%{
+		width:100px;
+	}
+}
+@media(max-width:1050px){
+	.s-box-container{
+		flex-wrap: wrap;
+		
+	}	
+	.services{
+		height: auto;
+	}
+	.s-heading{
+		margin: 15px;
+	}
+	.s-box{
+		flex-grow: 1;
+	}
+	
+}
